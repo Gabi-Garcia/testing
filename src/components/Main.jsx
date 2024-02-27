@@ -2,18 +2,13 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import '../styles/main.css'
+import MainContain from '../styledComponents/Main/mainStyledComponent'
 
 const Main = () => {
   return (
     <div className='main'>
-        {/* <CajaMain>
-
-        </CajaMain> */}
-
-
-        {/* FUNCIONA */}
-        {/* <Cajagiphy>      
-        </Cajagiphy> */}
+        <MainContain>          
+        </MainContain>
     </div>
   )
 }

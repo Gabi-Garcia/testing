@@ -5,10 +5,15 @@ import React from 'react';
 import styled from 'styled-components';
 
 const HeaderContain = styled.header`
-width:100%;
-height:15vh;
-margin-top:10px;
-border:1px solid yellow;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-around;
+width:50%;
+margin-top:0px;
+margin: auto;
+/* border:1px solid yellow; */
 `
 const MainHeader = ({children}) => {
     return (
