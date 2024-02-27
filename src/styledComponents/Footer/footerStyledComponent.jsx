@@ -13,8 +13,7 @@ text-align: center;
 const footerFooter = ()=> {
     return(
         <FooterContainer>
-             <div className='footer'>
-              
+             <div className='footer'>      
               <ul>
                 <li>
                   <a href="https://github.com/Gabi-Garcia"  target="_blank" rel="noreferrer" >
