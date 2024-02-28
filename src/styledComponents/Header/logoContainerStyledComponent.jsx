@@ -6,10 +6,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const LogoContainer = styled.div`
-width:80px;
-height: 80px;
-margin-top:0px;
-border-radius: 100%;
+width:60px;
+height: 60px;
 /* border:1px solid black; */
 `
 

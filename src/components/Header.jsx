@@ -14,7 +14,7 @@ const Header = () => {
      <LogoContainer>
      <img  className="logoImg" src="/programacion.png" alt="Logo Img" />
      </LogoContainer>
-     <h1>Testing Project</h1> 
+     <h1>Testing</h1> 
     </HeaderContain>
     </div>
     </>

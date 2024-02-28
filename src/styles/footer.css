@@ -4,9 +4,10 @@
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
-      width:100vw;
+      width:90vw;
       margin: auto;
-      height: 10vh; 
+      height: 15vh; 
+      margin-top: 300px;
       /* border: 1px solid blue; */
       }
       .footer > ul{

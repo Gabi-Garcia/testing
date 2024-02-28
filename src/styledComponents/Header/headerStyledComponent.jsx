@@ -9,12 +9,13 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 align-items: center;
-justify-content: space-around;
-width:50%;
+justify-content:center;
+width:35%;
 margin-top:0px;
 margin: auto;
-/* border:1px solid yellow; */
-`
+gap: 20px;
+/* border:1px solid yellow;*/
+` 
 const MainHeader = ({children}) => {
     return (
         <HeaderContain>{children}</HeaderContain>

@@ -3,17 +3,17 @@
 import React from 'react'
 import styled from 'styled-components';
 
-const cajaGiphy = styled.div`
+const CajaGiphy = styled.div`
 flex-direction: column;
 flex-wrap: wrap;
 width:90%;
 margin-top:0px;
 margin: auto;
-/* border:2px solid black; */
+border:2px solid black;
 `
 const Giphy = () => {
     return(
-        <cajaGiphy></cajaGiphy>
+        <CajaGiphy></CajaGiphy>
     )
 }
 export default Giphy;

@@ -7,7 +7,10 @@ import styled from 'styled-components';
 
 const FooterContainer = styled.div`
 width:100%;
+height: 10vh;
 text-align: center;
+margin: auto;
+margin-top: 120px;
 /* border: 1px solid black; */
 `
 const footerFooter = ()=> {

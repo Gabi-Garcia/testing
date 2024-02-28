@@ -10,12 +10,9 @@ function App() {
   return (
     <>
     <div className='caja'>
-
     <Header />
     <Main />
     <Footer />
-
-
     </div>
     </>
   )
