@@ -5,6 +5,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import FormContainer from '../Form/formStyledComponent';
+import CajaLinks from '../../styledComponents/Links/linksStyledComponent';
 
 const MainContain = styled.main`
 display: flex;
@@ -62,22 +63,7 @@ const MainMain = ()=>{
                 Pruebas de Front-End (Front-End Testing): Evaluación de la interfaz de usuario y la experiencia del usuario en el lado del cliente.
                 Es importante adaptar las pruebas según las necesidades específicas de cada proyecto y considerar la combinación de diversas estrategias para garantizar una cobertura completa del sistema.
             </p>
-           
-            <p>Finalmente te dejamos un listado de lugares dónde comenzar tu búsqueda de información.
-             <ul>
-                    <a href="https://developer.mozilla.org/es/" target="_blank">
-                <li>
-                    Pruebas Unitarias: Busca información en sitios como MDN Web Docs o JUnit.
-                </li>
-                    </a>
-                <li>Pruebas de Integración:Software Testing Help y ISTQB son buenos recursos para obtener información sobre pruebas de integración.</li>
-                <li>Pruebas de Aceptación del Usuario (UAT):Puedes encontrar información sobre UAT en UserTesting o UX Design.</li>
-                <li>Pruebas de Rendimiento:Para pruebas de rendimiento, sitios como Apache JMeter y LoadNinja pueden ser útiles.</li>
-                <li>Pruebas de Seguridad:Busca en OWASP para obtener recursos sobre pruebas de seguridad.</li>
-                <li>Pruebas de Regresión:SmartBear - Regression Testing y TestRail son recursos útiles para pruebas de regresión.</li>
-             </ul>
-            </p>
-          
+            <CajaLinks></CajaLinks>
         </MainContain>
         </>
     )

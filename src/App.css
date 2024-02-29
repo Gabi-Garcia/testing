@@ -52,3 +52,19 @@ p{
   padding: 10px;
   border-radius: 7px;
 }
+.cajaLinks>ul{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  border: 1px solid green;
+}
+.cajaLinks>ul>li{
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  border: 1px solid black;
+}
+.cajaLinks>ul>li>a{
+  cursor: pointer;
+}
