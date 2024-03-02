@@ -21,11 +21,9 @@ const Form = () => {
   }
   return (
   <>
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} id='form' name='form'>
         <div className='formulario'>
-            
-              <input className='input' type="text" value={userName} onChange={handleNameChange} placeholder='Dinos tu nombre'/>
-           
+            <input className='input' type="text" value={userName} onChange={handleNameChange} placeholder='Dinos tu nombre'/>  
             <button className='button' type="submit">Enviar</button>
         </div>
     </form>

@@ -6,14 +6,19 @@ import React from 'react';
 import styled from 'styled-components';
 
 const LogoContainer = styled.div`
-width:60px;
-height: 60px;
+width:45px;
+height:45px;
+/* margin: auto; */
 /* border:1px solid black; */
-`
 
-const Logo = ({children}) => {
+.logoImg{
+    width: 100%;
+    height: 100%;
+}
+`
+const Logo = () => {
     return (
-        <LogoContainer>{children}</LogoContainer>
+        <LogoContainer><img  className="logoImg" src="/programacion.png" alt="Logo Img" /></LogoContainer>
     )
 }
 

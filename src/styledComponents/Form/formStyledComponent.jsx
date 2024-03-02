@@ -7,12 +7,35 @@ import styled from 'styled-components';
 import Form from '../../components/Form';
 
 const FormContainer = styled.div`
+@media(min-width: 769px) and (max-width: 1500px){
 width: 80%;
 text-align: center;
 align-items: center;
 justify-content: center;
 margin: auto;
-border: 1px solid green;
+padding: 5px;
+/* border: 1px solid green; */
+p{
+    width: 100%;
+    font-size: 0.8rem;
+}
+}
+@media(min-width: 320px) and (max-width: 768px){
+width: 90%;
+text-align: center;
+align-items: center;
+justify-content: center;
+margin: auto;
+margin-top: 10px;
+padding: 5px;
+/* border: 1px solid yellow; */
+
+p{
+    width: 100%;
+    font-size: 0.7rem;
+    /* border: 1px solid black; */
+}
+}
 `
 const FormForm = ()=> {
     return(

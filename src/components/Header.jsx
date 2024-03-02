@@ -1,22 +1,20 @@
 /* eslint-disable react/jsx-no-undef */
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import '../styles/header.css';
-import HeaderContain from '../styledComponents/Header/headerStyledComponent';
-import LogoContainer from '../styledComponents/Header/logoContainerStyledComponent';
+import HeaderContain from '../styledComponents/Header/HeaderStyledComponent';
+import LogoContainer from '../styledComponents/Header/LogoContainerStyledComponent';
+
 
 
 const Header = () => {
   return (
     <>
-    <div className='header'>
-    <HeaderContain>
+    
+    <HeaderContain >
      <LogoContainer>
-     <img  className="logoImg" src="/programacion.png" alt="Logo Img" />
      </LogoContainer>
-     <h1>Testing</h1> 
     </HeaderContain>
-    </div>
+   
     </>
   )
 }

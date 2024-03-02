@@ -6,43 +6,137 @@ import React from 'react';
 import styled from 'styled-components';
 import FormContainer from '../Form/formStyledComponent';
 import CajaLinks from '../../styledComponents/Links/linksStyledComponent';
+import CajaGiphy from '../../styledComponents/Main/giphyContainerStyledComponent'
 
 const MainContain = styled.main`
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-width:90%;
-margin-top:0px;
+@media(min-width: 769px) and (max-width: 1500px){
+
+width: 90%;
 margin: auto;
-border:2px solid violet;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding-top: 20px;
+/* border:1px solid green; */
+p{
+  font-size: 0.8rem;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+.cajaTextoGiphy{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+    /* border: 1px solid green; */
+  }
+  .giphyImg{
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+  .cajaTextoGiphy > p{
+    font-size: 0.8rem;
+    color: black;
+    width: 60%;
+  }
+  .input{
+    width: 10%;
+  }
+  .button{
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .formulario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30%;
+    margin: auto;
+    justify-content: space-around;
+    /* border: 1px solid yellow; */
+  }
+  .formulario > input{
+    text-align: center;
+    width: 40%;
+  }
+}
+/*MOBILE*/
+@media(min-width: 320px) and (max-width: 768px){
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+    /* border:1px solid green; */
+    p{
+  font-size: 0.7rem;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  /* color: green; */
+}
+.cajaTextoGiphy{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+    /* border: 1px solid blue; */
+  }
+  .giphyImg{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 10px;
+    border-radius: 100%;
+  }
+  .cajaTextoGiphy > p{
+    font-size: 0.7rem;
+    color: black;
+    width:100%;
+    /* border: 1px solid red; */
+  }
+  .input{
+    width: 10%;
+  }
+  .button{
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .formulario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+  }
+  .formulario > input{
+    text-align: center;
+    width: 60%;
+  }
+}
 `
 const MainMain = ()=>{
     return(
         <>
         <MainContain>
             <FormContainer></FormContainer>
-            <cajaGiphy>                 
-                <div className='cajaTextoGiphy'>
-                    <p>El testing en programación se refiere al proceso de verificar y validar que un
-                         software o una aplicación funcione como se espera. Consiste en diseñar casos
-                          de prueba, ejecutarlos y comparar los resultados obtenidos con los resultados
-                           esperados. El objetivo principal del testing es identificar y corregir posibles 
-                           errores o defectos en el código, asegurando así la calidad y confiabilidad del
-                            software. Los diferentes tipos de pruebas, como pruebas unitarias, de integración 
-                            y de aceptación, se utilizan en conjunto para garantizar un desarrollo robusto y
-                             la entrega de productos de software sin problemas. El testing es una práctica 
-                             crucial para mejorar la estabilidad, el rendimiento y la experiencia del usuario
-                              en cualquier aplicación.
-                              El objetivo principal es identificar y corregir posibles errores antes de que el
-                               software sea implementado en un entorno de producción. El testing abarca diferentes
-                                niveles, desde pruebas unitarias que examinan componentes individuales hasta pruebas
-                                 de sistema que evalúan la funcionalidad completa de la aplicación. Este enfoque sistemático 
-                                 ayuda a mejorar la calidad del software, aumentar la confianza en su rendimiento y facilitar
-                                  el mantenimiento a lo largo del tiempo.                   
-                    </p>
-                    <img className='giphyImg'  src="https://media.giphy.com/media/Z5xk7fGO5FjjTElnpT/giphy.gif?cid=790b761192q4t8zcoy3uoqxy8sgbjn25ypjkn7o66zy43qd6&ep=v1_gifs_trending&rid=giphy.gif&ct=g" alt="giphyImg" />
-                </div>
-            </cajaGiphy>
+            <CajaGiphy></CajaGiphy>
             <p>Existen diversos tipos de pruebas en el ámbito del desarrollo de software, cada uno enfocado en aspectos específicos del sistema.
                 Aquí tienes un listado de algunas de las principales categorías de testing:
                 Pruebas Unitarias (Unit Testing): Evaluación de unidades individuales de código para asegurar su correcto funcionamiento.
