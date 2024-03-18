@@ -10,7 +10,7 @@ width:90%;
 margin-top:0px;
 margin: auto;
 /* border:2px solid black; */
-`
+` 
 const Giphy = () => {
     return(
         <CajaGiphy>

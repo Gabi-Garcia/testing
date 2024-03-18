@@ -5,7 +5,7 @@ import MainContain from '../styledComponents/Main/mainStyledComponent';
 
 const Main = () => {
   return (
-    <div className='main'>
+    <div className='main' data-testid="main">
         <MainContain> 
         </MainContain>
     </div>

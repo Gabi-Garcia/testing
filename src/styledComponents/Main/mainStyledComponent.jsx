@@ -10,7 +10,7 @@ import CajaGiphy from '../../styledComponents/Main/giphyContainerStyledComponent
 
 const MainContain = styled.main`
 @media(min-width: 769px) and (max-width: 1500px){
-
+ 
 width: 90%;
 margin: auto;
 display: flex;

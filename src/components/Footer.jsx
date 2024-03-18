@@ -4,7 +4,7 @@ import FooterContainer from '../styledComponents/Footer/footerStyledComponent';
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div className='footer' data-testid="footer">
       <FooterContainer>
       </FooterContainer>
     </div>

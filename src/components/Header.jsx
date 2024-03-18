@@ -9,7 +9,6 @@ import LogoContainer from '../styledComponents/Header/LogoContainerStyledCompone
 const Header = () => {
   return (
     <>
-    <h2 data-testid='title'>Prueba</h2>
     <HeaderContain >
      <LogoContainer>
      </LogoContainer>

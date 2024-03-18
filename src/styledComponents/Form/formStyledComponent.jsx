@@ -19,6 +19,17 @@ p{
     width: 100%;
     font-size: 0.8rem;
 }
+.button{
+    cursor: pointer;
+}
+.formulario{
+    width: 40%;
+    /* border: 1px solid yellow; */
+}
+.formulario .input{
+    width: 200px;
+    /* border: 1px solid red; */
+}
 }
 @media(min-width: 320px) and (max-width: 768px){
 width: 90%;
@@ -28,7 +39,6 @@ justify-content: center;
 margin: auto;
 margin-top: 10px;
 padding: 5px;
-/* border: 1px solid yellow; */
 
 p{
     width: 100%;
@@ -42,7 +52,6 @@ const FormForm = ()=> {
    <FormContainer>
     <Form></Form>
    </FormContainer>
-
     )
 }
 

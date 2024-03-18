@@ -24,8 +24,7 @@ h1{
     width:60%;
     font-size: 2.7rem;
     justify-content: center;
-    /* margin: auto; */
-    /* border: 1px solid violet; */
+    color: #d80fd8;
   }
   .logoImg{
     width: 100%;
@@ -49,6 +48,7 @@ h1{
 h1{
   width: 60%;
   justify-content: center;
+  color: #d80fd8;
   /* border: 1px solid violet; */
 }
 .logoImg{

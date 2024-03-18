@@ -9,13 +9,13 @@
 import { render, screen} from '@testing-library/react';
 // eslint-disable-next-line no-unused-vars
 import { describe, test } from 'vitest';
-import Header from '../components/Header'
+import Main from '../components/Main' 
 
 
-describe("Header", () =>{
-    test("Logo debería tener el siguiente texto alternativo: Logo Img", () => {
-        render(<Header/>)
-        expect(screen.getByRole("img")).toHaveAttribute("alt", "Logo Img");
+describe("Main", () => {
+    test("El componente Main debería tener el classname main", () => {
+        render(<Main />)
+        expect(screen.getByTestId("main")).toHaveAttribute("class", "main")
     });
-    
 })
+    
