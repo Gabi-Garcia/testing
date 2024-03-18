@@ -23,7 +23,7 @@ p{
     cursor: pointer;
 }
 .formulario{
-    width: 40%;
+    width: 35%;
     /* border: 1px solid yellow; */
 }
 .formulario .input{
