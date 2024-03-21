@@ -14,3 +14,4 @@ Para realizar el deploy eliminé las dependencias de los tests:
     "@testing-library/user-event": "^14.5.2",
      "vitest": "^1.3.1",
        "@vitest/ui": "^1.3.1",
+       "vitest": "^1.3.1"
