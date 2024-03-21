@@ -12,3 +12,5 @@ Para realizar el deploy eliminé las dependencias de los tests:
     "@testing-library/react": "^14.2.1",
     "@testing-library/react-hooks": "^8.0.1",
     "@testing-library/user-event": "^14.5.2",
+     "vitest": "^1.3.1",
+       "@vitest/ui": "^1.3.1",
